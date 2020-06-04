@@ -24,4 +24,4 @@
 Released in 2020.
 This project is under the [MIT license](https://github.com/JonathanMicael/next-food-api/blob/master/LICENSE).
 
-Made by [Jonathan Micael](https://github.com/LauraBeatris) 🖤
+Made by [Jonathan Micael](https://github.com/JonathanMicael) 🖤
