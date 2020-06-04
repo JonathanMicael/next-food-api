@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "mvc application to explore, cooking & manage special recipes - made with express, mongodb 🍕",
+  "main": "index.js",
+  "repository": "git@github.com:JonathanMicael/nextfood-api.git",
+  "author": "Jonathan Micael <jonathannmicaell917@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "crawler": "node src/services/crawler/index.js",
+    "test": "NODE_ENV=test jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.17",
+    "prompts": "^2.3.2",
+    "ramda": "^0.27.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
