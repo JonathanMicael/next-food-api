@@ -14,6 +14,10 @@
 
 # :rocket: Features
 
+* 🍳 Explore recipes and cook amazing recipes.
+* 🍕 Create an account to store your favorites recipes,  
+* 🌏 Multi language support - English and Portuguese.
+* 🎨 A cool dark mode theme toggle.
 
 # :closed_book: License
 
