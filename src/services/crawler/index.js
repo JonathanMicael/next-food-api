@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const createCore = require("./core.js");
 
 const core = createCore();

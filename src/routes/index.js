@@ -1,15 +1,9 @@
 const routes = require('express').Router();
-const pj = require('../../package.json')
 
-const { baseAPI } = require('../utils')
+const adminRoutes = require('./admin');
+const publicRoutes = require('./public');
 
-const RecipeController = require('../app/controllers/RecipeController')
-
-routes.get('/', (_, res) => res.status(200).json(baseAPI(200, `NEXTFOOD API version: ${pj.version}`)));
-
-// Recipes
-routes.get('/recipes', RecipeController.index)
-
-
+routes.use('/', publicRoutes);
+routes.use('/admin', adminRoutes);
 
 module.exports = routes;
